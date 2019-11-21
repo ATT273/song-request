@@ -1,0 +1,65 @@
+body{
+	background-image: linear-gradient(to right, #e3616c, #c921dd);
+}
+/*Player page*/
+.player-container{
+	width: 80%;
+	margin: 10px auto;
+}
+iframe#player{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#msg{
+	display: none;
+}
+.request{
+	text-align: center;
+}
+.request a{
+	color: #ddd;
+	text-decoration: none;
+}
+.request a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+/*request page*/
+.header h3{
+	color: #fff;
+}
+.content{
+	width: 30%;
+	height: 100%;
+
+	margin: auto;
+	margin-top: 50px;
+}
+
+.q_list{
+	font-size: 0.9rem;
+}
+
+table thead{
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+thead th{
+	display: block;
+}
+table tbody{
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+tbody td{
+	display: block;
+}
+@media (max-width: 770px){
+	.content{
+		width: 90%;
+	}
+	iframe#player{
+		width: 100%;
+	}
+}
